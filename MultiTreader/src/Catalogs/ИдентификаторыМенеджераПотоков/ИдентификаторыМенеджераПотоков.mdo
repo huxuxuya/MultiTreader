@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3193e08-ec9d-436c-b8b2-5637532364d6">
+  <producedTypes>
+    <objectType typeId="e90b69ec-79f3-40dc-849b-f3d7e788b1cb" valueTypeId="dc7fbb30-5a2b-413a-846c-2232291a116d"/>
+    <refType typeId="31e07439-e397-4775-b045-b912667a8fe2" valueTypeId="c1a67363-eb35-45b7-8b02-5ba0c0c78d44"/>
+    <selectionType typeId="0d05c855-c979-4589-866b-05c7e64db2c7" valueTypeId="5771c9f6-5e6d-4d38-89be-6a0ae6c3bf5d"/>
+    <listType typeId="4e3b5bf7-fdae-4332-a2d0-14f35a797888" valueTypeId="dfd2f89a-7a0c-49d3-9f30-a4a496a8ab9a"/>
+    <managerType typeId="2d8c71c4-3c30-483c-b3eb-102fda403b01" valueTypeId="2d511c63-1723-4bb7-84c0-d3d8f2a3e0df"/>
+  </producedTypes>
+  <name>ИдентификаторыМенеджераПотоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы менеджера потоков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИдентификаторыМенеджераПотоков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИдентификаторыМенеджераПотоков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d2030641-8e8c-4b1a-b51b-850ee430380d">
+      <name>_АвтоТестирование_</name>
+      <description>_АвтоТестирование_</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="67bde35a-d336-4bfb-b8de-68f732ea4790">
+      <name>_КорректировкаВзаиморасчетов_</name>
+      <description>_КорректировкаВзаиморасчетов_</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="e4de0b36-66ad-45c1-89d2-a04c9318c422">
+      <name>_ОбработкаОбъектов_</name>
+      <description>_ОбработкаОбъектов_</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="13893187-c489-4524-a06a-dc573cbbef17">
+      <name>ккГенераторЗаявокПереносНеисполненныхЗаявок</name>
+      <description>Генератор заявок, перенос неисполненных заявок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="34cbeaca-adb2-4480-8ea3-ac045b931388">
+      <name>ккГенераторЗаявокСозданиеАктуализацияЗаявок</name>
+      <description>Генератор заявок, создание и актуализация заявок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="10fff9ed-58c7-4957-bd4c-5f0ad36a1953">
+      <name>ЗаполнениеОчередиТрансляции</name>
+      <description>Заполнение очереди трансляции</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="b58a8e76-317a-4ba3-9477-36adbf2775b5">
+      <name>_ЗачетАвансов_</name>
+      <description>Зачет авансов отложенно</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="cd9b92d5-1f3a-4106-9742-f096ba456eb8">
+      <name>_ОтложеннаяОбработкаОчереди_</name>
+      <description>Отложенная обработка очереди (документы себестоимости)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="f8d53266-eb48-46f0-b460-c9264adebda6">
+      <name>_ОтложенноеПроведение_</name>
+      <description>Отложенное проведение документов себестоимости</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="d4dfd810-27b5-46cd-8241-20d9ec8c14cb">
+      <name>_ТрансляцияДвиженийМСФО_</name>
+      <description>Трансляция движений МСФО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИдентификаторыМенеджераПотоков.Form.ФормаЭлементаУпр</defaultObjectForm>
+  <defaultListForm>Catalog.ИдентификаторыМенеджераПотоков.Form.ФормаСпискаУпр</defaultListForm>
+  <attributes uuid="eb4da2e9-f90b-45d8-9220-f48c902b3538">
+    <name>КоличествоПотоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d001560-8869-4732-960b-4192b9cb32dd">
+    <name>КоличествоЭлементовКолекцииНаПоток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов колекции на поток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1962061d-d2e6-4645-8f1b-2ac4c6b1f6a2">
+    <name>ИмяФайлаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65c382ed-2964-41d4-a8b6-fd470d8db314">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <comment>Хранилище</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fdc476b5-b396-4dbd-a3c8-df402a101502">
+    <name>ЗапускатьИзУказанногоФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запускать из указанного файла</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7715127b-4f46-442c-aa47-a4e9898687e6">
+    <name>НастройкиЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки задания</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1457af0d-6a0a-4a9e-8579-e953869c2b53">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b0ab745-d9b7-42f5-9827-9a253b1cdb61">
+    <name>ФормаЭлементаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a063de7c-d376-47c5-a601-ab4e3cf3b256">
+    <name>ФормаСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

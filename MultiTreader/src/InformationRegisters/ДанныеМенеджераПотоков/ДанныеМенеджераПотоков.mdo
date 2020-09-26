@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="493924ca-acf0-44a8-b6f3-a7b79ac4df95">
+  <producedTypes>
+    <selectionType typeId="0c68dce3-b5da-4c8d-8e58-6d3bb8db11f8" valueTypeId="a439eb17-9bc3-4b9b-97bd-434cd103a5ea"/>
+    <listType typeId="e6e3033a-4e7f-4b64-9d5d-cfc02b5b74e7" valueTypeId="943fc40b-81f0-4920-bbef-b71de654cca7"/>
+    <managerType typeId="1ae84ba9-4ecd-4f02-b27d-3adcf6beb430" valueTypeId="62597168-837b-4aa7-8577-50292babcccd"/>
+    <recordSetType typeId="9d018208-9f4b-412e-a683-f6b8014c563f" valueTypeId="a6f5812d-ccad-4569-bfe8-48fef426c448"/>
+    <recordKeyType typeId="381e924c-e9d4-456d-b58b-380491efdad3" valueTypeId="e18feb7a-2d3c-4d3a-afe0-1fc757c8e867"/>
+    <recordType typeId="b21e7e8b-e87d-4c8f-bfaf-d142cd2d6be5" valueTypeId="7a14af3a-3822-483a-a00a-1291ff95b033"/>
+    <recordManagerType typeId="340a2266-c226-4b5b-ab1d-c8c1cd4eebfb" valueTypeId="fe31645f-c54a-4fa8-9b73-532c38b3e7e9"/>
+  </producedTypes>
+  <name>ДанныеМенеджераПотоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные менеджера потоков</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="49e78c72-83b4-43ba-9e50-def459d02c48">
+    <name>СтартМенеджера_мс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт менеджера (мс)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8a2acc0-8e50-4076-842e-d840fc0e8d7d">
+    <name>ПараметрыМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры менеджера</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c07f916-d8a4-4cca-bf2f-3572ba14c09b">
+    <name>ДинамическиеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамические параметры</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="29de85b3-fa61-4be8-9a67-f09ec95bdeec">
+    <name>ЖурналМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал менеджера</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55b49613-3d36-4225-bf90-2139e021c89c">
+    <name>Длительность_мс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность (мс)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="751dfb0f-97b5-40b6-b2e7-2e488fcfc233">
+    <name>КоличествоПорцийВСтеке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество порций в стеке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="99ba7c9e-c598-4d55-bdc9-7c8da969ac9c">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fbcfd1f8-8d06-4895-a58b-bb8f0f512543">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fbd12b3f-751d-4fe3-a837-0bf7ba7638d7">
+    <name>ИдентификаторМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор менеджера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыМенеджераПотоков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

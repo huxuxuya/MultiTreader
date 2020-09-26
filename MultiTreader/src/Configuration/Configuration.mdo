@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="667e8b17-6002-4a65-8a82-58b64f4ab55b">
+  <name>MultiThreader</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="373619cc-5556-45af-91b2-2ea535a8a886"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="40066bcd-0037-40c9-bd27-87b1bdab563e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c8cc41a2-0494-450a-96c0-7a1a1c1b40ca"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="316ef891-f719-4057-a247-c95dc07dc4a9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="9fec7bea-b6a9-4476-ab2c-d158ee7c8d4f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="30cfe10a-5b4c-4442-bdbd-9863e4c54b9a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a8d5c57c-8156-428a-abf4-1588b014970b"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="cb392baa-5c00-45e8-9905-3375f0702a40">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.МенеджерПотоков</subsystems>
+  <commonTemplates>CommonTemplate.AddInNativeSleep</commonTemplates>
+  <commonModules>CommonModule.МенеджерПотоков</commonModules>
+  <commonModules>CommonModule.МенеджерПотоковСлужебный</commonModules>
+  <commonModules>CommonModule.МенеджерПотоковЛогирование</commonModules>
+  <commonModules>CommonModule.МенеджерПотоковПереопределяемый</commonModules>
+  <commonModules>CommonModule.ГрупповаяОбработкаОбъектов</commonModules>
+  <catalogs>Catalog.ИдентификаторыМенеджераПотоков</catalogs>
+  <enums>Enum.СостояниеРабочегоПотока</enums>
+  <dataProcessors>DataProcessor.МенеджерФоновыхЗаданий</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеМенеджераПотоков</informationRegisters>
+  <informationRegisters>InformationRegister.СтекДанных_Мьютекс</informationRegisters>
+  <informationRegisters>InformationRegister.КоллекцияРабочихПотоков</informationRegisters>
+  <informationRegisters>InformationRegister.ЖурналОтладкиПотоков</informationRegisters>
+  <informationRegisters>InformationRegister.РеестрЗаданийМенеджераФЗ</informationRegisters>
+</mdclass:Configuration>

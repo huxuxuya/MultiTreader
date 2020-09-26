@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63ec2a90-3a04-4360-adff-fc425f76c538">
+  <name>МенеджерПотоковСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер потоков служебный</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

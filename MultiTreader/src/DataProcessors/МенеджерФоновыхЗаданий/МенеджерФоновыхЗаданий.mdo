@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69ff86e7-155f-4d27-9b0a-664d36c89695">
+  <producedTypes>
+    <objectType typeId="f1a094a0-3e20-4cbf-b83d-c46cc5aeb181" valueTypeId="d3d1bd35-692a-4cb5-a956-177918050d17"/>
+    <managerType typeId="ae52ce29-da8f-411b-a5df-63fd84b85145" valueTypeId="30ea7800-a0e7-4908-b294-8928b15b1ed4"/>
+  </producedTypes>
+  <name>МенеджерФоновыхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер фоновых заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МенеджерФоновыхЗаданий.Form.Форма</defaultForm>
+  <attributes uuid="f0d62a41-a70e-415a-8545-18f54195d35e">
+    <name>ИдентификаторМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор менеджера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыМенеджераПотоков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01bec884-c427-4e94-a58f-9b089d7087dc">
+    <name>КоличествоПотоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51adc349-85e9-4c95-bc1f-cd343c821ca6">
+    <name>КоличествоЭлементовКолекцииНаПоток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество элементов колекции на поток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f35c11d-1a8c-4683-876c-2970d564f561">
+    <name>РежимОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим отладки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="93fa6665-0cdf-40bc-9c7e-368ea9d8df4d">
+    <name>ИспользоватьАвтообновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автообновление</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dddc7077-c064-4309-bc82-af3cc5a280b5">
+    <name>ИнтервалАвтообновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал автообновления (мин)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>5</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a0a6be3-fa43-411d-9b74-71d64bc1f104">
+    <name>СвернутьГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свернуть группировки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e66c079d-696a-4984-8ca8-279de03a114f">
+    <name>ИспользоватьВнешнююОбработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать внешнюю обработку</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3ac32795-87c1-4ac2-a7dc-69ddfeadbc81">
+    <name>ПоказатьОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c593a85f-0f5f-4d72-8e55-09dc06bbfa2b">
+    <name>ВыводитьДвоичныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить двоичные данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4c86359-c22d-49d7-b9d7-d3b2f0976b07">
+    <name>ПродолжитьВыполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжить выполнение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="59bd747b-4cfd-4795-9153-8f8ccd9ea745">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e1fc2003-5d8f-456b-a299-11132e441c02">
+    <name>МакетХранилищаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет хранилища значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="4f193319-774f-43a4-be92-808664ebd11a">
+    <name>МакетМонитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет монитора</value>
+    </synonym>
+  </templates>
+  <templates uuid="e06f589e-d78e-4410-a7b7-6bc1416d2fae">
+    <name>ЖурналСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал событий</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

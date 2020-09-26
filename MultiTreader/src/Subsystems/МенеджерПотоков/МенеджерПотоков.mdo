@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793f3ff4-239d-4a26-92dd-f387c575c08d">
+  <name>МенеджерПотоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер потоков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МенеджерПотоковСлужебный</content>
+  <content>CommonModule.МенеджерПотоковЛогирование</content>
+  <content>CommonModule.МенеджерПотоковПереопределяемый</content>
+  <content>CommonModule.МенеджерПотоков</content>
+  <content>DataProcessor.МенеджерФоновыхЗаданий</content>
+  <content>InformationRegister.ДанныеМенеджераПотоков</content>
+  <content>InformationRegister.СтекДанных_Мьютекс</content>
+  <content>InformationRegister.КоллекцияРабочихПотоков</content>
+  <content>InformationRegister.ЖурналОтладкиПотоков</content>
+  <content>InformationRegister.РеестрЗаданийМенеджераФЗ</content>
+  <content>Catalog.ИдентификаторыМенеджераПотоков</content>
+  <content>Enum.СостояниеРабочегоПотока</content>
+  <content>CommonTemplate.AddInNativeSleep</content>
+  <content>CommonModule.ГрупповаяОбработкаОбъектов</content>
+  <subsystems>МенеджерПотоковБезИнтерфейса</subsystems>
+</mdclass:Subsystem>

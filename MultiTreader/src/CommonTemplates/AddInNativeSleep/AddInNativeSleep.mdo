@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a925bbed-d54d-40f2-8143-cde9fb0b5c50">
+  <name>AddInNativeSleep</name>
+  <synonym>
+    <key>ru</key>
+    <value>Add in native sleep</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8aed756-5d56-4f43-b577-3226b4184d06">
+  <producedTypes>
+    <selectionType typeId="d38f50c3-29a3-4f1e-949b-1f99f22aff7e" valueTypeId="8090a89f-2b26-4270-ba14-0260d0aa47b1"/>
+    <listType typeId="85b908df-2fcb-44ef-bc5e-f12441fca69a" valueTypeId="a5b93dd6-5cc9-4d4a-af54-afb928da4695"/>
+    <managerType typeId="2d7ba91b-9c09-4ca2-8306-0fc5022c5c71" valueTypeId="892b0f9e-ffbc-45fc-9e59-e570676cfda6"/>
+    <recordSetType typeId="ab9c4e13-2609-46ca-aa07-cd85175e812e" valueTypeId="4218c9f5-89de-4cd0-995a-8008a3e0d405"/>
+    <recordKeyType typeId="213c4295-ca48-43de-bfed-22b9d5fd4917" valueTypeId="7a9370c0-a14e-4406-970c-e35403a30ebe"/>
+    <recordType typeId="a586b731-6b0a-460c-ac64-2b3ee358f235" valueTypeId="9ddfbad9-5cb9-45af-8873-8bf6c804d927"/>
+    <recordManagerType typeId="c54f22fb-60fc-4cc9-8674-44d74b07239e" valueTypeId="94bbc7b2-c79c-4db7-bb11-ad91bdef4ce4"/>
+  </producedTypes>
+  <name>КоллекцияРабочихПотоков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция рабочих потоков</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb468b5b-c8e9-4d38-979e-b9d5cf46fa05">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостояниеРабочегоПотока</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c33abe17-ca3d-44d8-ac3c-13db20203a7e">
+    <name>НомерПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер порции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c6704aca-1091-4d2d-be19-b382173d461b">
+    <name>КоличествоПерезапусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество перезапусков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="be401a5b-2805-4e74-8841-a2095b3f6f1a">
+    <name>ЖурналПотока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал потока</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="600950ad-26f9-48dd-9063-12ff8f78462b">
+    <name>ИдентификаторМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор менеджера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыМенеджераПотоков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="75bbfc3c-d0bb-4029-b998-af855007dfe1">
+    <name>КлючПотока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ потока</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac37329-dbcb-48d5-951a-a343dc127ee9">
+  <producedTypes>
+    <refType typeId="e3ea38d7-550e-46ea-947d-2b87249d965f" valueTypeId="1b8a2633-6783-4ad8-b246-dbc4fa78e7c5"/>
+    <listType typeId="fdb39f85-c4cf-40e0-95cd-ea4127d00aa5" valueTypeId="b07753ca-271c-46db-b419-618323093d44"/>
+    <managerType typeId="5b2569a6-02a4-4330-a8f2-a38a55339527" valueTypeId="aeedd98f-8c63-4f54-837a-c3ef8d75d9ed"/>
+  </producedTypes>
+  <name>СостояниеРабочегоПотока</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние рабочего потока</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92eee60a-22a6-4dcc-bdeb-a5878c1af9fc">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53bcc5a2-b46b-426c-9bf4-a12de091d391">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59685b70-0692-432d-a8d4-793fa55f3302">
+    <name>ЗавершенАварийно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен аварийно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a24162a7-e9cf-49a2-88fa-8251661fac70">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
